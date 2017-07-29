@@ -1,0 +1,89 @@
+:root
+{
+    --title-color:#29B6F6;
+    --list-header-color:#29B6F6;
+    --list-content-color:#29B6F6;
+    --background-color:#424242;
+}
+
+body
+{
+    background-image: url("img/argus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container
+{
+    background: var(--background-color);
+    width: 95%;
+    max-width: 900px;
+    height: 900px;
+    display: block;
+    margin: 20 auto;
+    border: 1px solid black;
+    box-shadow: 1px 4px 8px #111;
+}
+
+.header
+{
+    width: 100%;
+    text-align: center;
+}
+
+.header h1
+{
+    color: var(--title-color);
+    font-size: 50;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-wrapper
+{
+    width:93%;
+    height: 81%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.left-content
+{
+    width: 35%;
+    height: 900px;
+    float: left;
+}
+
+.right-content
+{
+    width:65%;
+    float: right;
+}
+
+.center-content h2
+{
+    color: var(--list-header-color);
+    font-size: 32;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.feature_list
+{
+    margin-top: -10;
+    font-size: 15;
+    color: var(--list-content-color);
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature_list li
+{
+    margin: 5 0;
+}
+
+.feature_list li b
+{
+    
+    font-size: 18;
+}
